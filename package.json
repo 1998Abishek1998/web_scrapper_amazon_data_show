@@ -1,0 +1,24 @@
+{
+  "module": "server/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.1",
+    "dbmate": "^2.16.0",
+    "hono": "^4.3.2",
+    "mongoose": "^8.4.1",
+    "ts-node": "^10.9.2",
+    "zod": "^3.23.6"
+  },
+  "scripts": {
+    "dev": "cd frontend && bun run build && cd .. && bun --hot --smol run server/index.ts",
+    "dev:be": "bun --hot --smol run server/index.ts",
+    "build": "bun build --target=bun server/index.ts --outdir ./dist",
+    "start:prod": "bun dist/index.js"
+  }
+}
