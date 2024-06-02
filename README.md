@@ -10,6 +10,9 @@ https://www.mongodb.com/products/platform/atlas-database
 # SERVER INSTALLATION AND RUNNING
 
 ####  First : Clone this repo
+```
+https://github.com/1998Abishek1998/web_scrapper_amazon_data_show
+```
 
 #### 1.Non Docker USers
 
@@ -45,7 +48,10 @@ open http://localhost:8001
 
 # SCRAPPER INSTALLATION ####
 
-####  Go to this link
+####  Go to this link 
+```
+https://github.com/1998Abishek1998/web_scrapper_extension
+```
 
 Clone the repo
 ```sh
