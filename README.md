@@ -1,18 +1,17 @@
-#### Databse setup ####
+# Databse setup 
 
-# I am using nosql database mongodb for this project. Please go to this link and install mongodb either locally or create free mongodb atlas in their cloud
+#### I am using nosql database mongodb for this project. Please go to this link and install mongodb either locally or create free mongodb atlas in their cloud
 
 ```sh
 https://www.mongodb.com/products/platform/atlas-database
 ```
 
 
-#### SERVER INSTALLATION AND RUNNING ####
+# SERVER INSTALLATION AND RUNNING
 
-#  First : Clone this repo
+####  First : Clone this repo
 
-
-# 1.Non Docker USers
+#### 1.Non Docker USers
 
 To install dependencies:
 ```sh
@@ -29,7 +28,7 @@ To run:
 make run
 ```
 
-# 2.Docker users
+#### 2.Docker users
 
 Install docker in your pc and just run:
 ```sh
@@ -41,14 +40,12 @@ Install docker in your pc and just run:
 docker compose down
 ```
 
-
 open http://localhost:8001
 
 
-#### SCRAPPER INSTALLATION ####
+# SCRAPPER INSTALLATION ####
 
-
-#  Go to this link
+####  Go to this link
 
 Clone the repo
 ```sh
@@ -69,18 +66,13 @@ SELECT the cloned repo
 ```
 
 
-#### START SCRAPPING ####
+# START SCRAPPING 
 
-
-#  Run the Server
-
-#  Select the extension
-
-#  Scrape the data
+####  Run the Server
+####  Select the extension
+####  Scrape the data
 
 copy paste this in your browser
 ```sh
 http://localhost:8001
 ```
- # web_scrapper_amazon_data_show
-# web_scrapper_amazon_data_show
