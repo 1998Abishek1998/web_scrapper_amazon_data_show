@@ -44,9 +44,11 @@ const MainPage = () => {
   return (
     <div className="app">
       <h1>Amazon HomePage</h1>
-      <button onClick={() => handleClick()} className='border rounded-sm bg-slate-300 m-1 h-4 w-4'> Delete</button>
+      <span style={{ maxWidth: "100px" }}>
+        <button onClick={() => handleClick()} > Delete</button>
+      </span>
       {
-        loading ? <>loading...</>
+        loading ? <div className='loading'>loading...</div>
           : <CardLayout groupedData={state} />
       }
     </div>

@@ -12,9 +12,8 @@ const Card = ({ label, imageUrl, link }) => {
       <img src={imageUrl} alt={label} />
       <div className="card-body">
         <a href={link} onClick={handleLinkClick}>
-          Open in New Tab
+          <h5 className="card-title">{label}</h5>
         </a>
-        <h5 className="card-title">{label}</h5>
       </div>
     </div>
   )

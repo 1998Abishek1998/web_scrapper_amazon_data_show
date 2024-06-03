@@ -27,6 +27,44 @@
 }
 
 .card-title {
-  margin: 0;
+  padding-top: 10px;
+  margin: 0 auto;
   font-size: 16px;
+  height: 30px;
+  width: auto;
+  background-color: aquamarine;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  height: 30px;
+  width: 50px;
+  background-color: aqua;
+  border: 0px;
+  padding: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+.loading {
+  height: 100vh;
+  width: 98vw;
+  z-index: 1;
+  margin: 0 auto;
+  background-color: aliceblue;
 }
