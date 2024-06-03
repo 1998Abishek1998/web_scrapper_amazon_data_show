@@ -41,9 +41,16 @@ const MainPage = () => {
     })
   }
 
+  const handleLinkClick = (event) => {
+    event.preventDefault();
+    window.open(event.target.href, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className="app">
-      <h1>Amazon HomePage</h1>
+      <h1>Amazon HomePage       <a href="http://www.amazon.com" onClick={handleLinkClick} style={{ margin: 5, backgroundColor: "aquamarine" }}> Scrape Url</a>
+      </h1>
+      <br />
       <span style={{ maxWidth: "100px" }}>
         <button onClick={() => handleClick()} > Delete</button>
       </span>
